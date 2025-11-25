@@ -1,0 +1,9 @@
+/* Minimal styling (Tailwind not configured to keep things simple for offline) */
+body { margin:0; font-family: Arial, Helvetica, sans-serif; }
+.container { max-width: 1000px; margin: 40px auto; padding: 20px; background: #fff; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+.header { display:flex; justify-content:space-between; align-items:center; }
+.table { width:100%; border-collapse: collapse; }
+.table th, .table td { padding: 12px 8px; border-bottom: 1px solid #eee; text-align:left; }
+.button { padding:8px 12px; border-radius:6px; cursor:pointer; }
+.btn-primary { background:#2563eb; color:white; border:none; }
+.btn-danger { background:#ef4444; color:white; border:none; }
